@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; /* para o justify-content, temos o center, space-between, space-around; 
+                                    O space-around deixa espaco de margem, ja o space-between cola elementos na margem; */
+}
+ /* Em vez disso, poderiamos declarar flex-direction e flex-wrap de uma vez com flex-flow: row wrap; */
+
+/* OBS: JUSTIFY CONTENT E ALIGN-ITENS INVERTEM DE FUNCAO AO USARMOS FLEX-DIRECTION ROW/COLUMN */
+
+
+.content{
+
+}
+
+.texts{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+}
