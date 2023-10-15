@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 300px 200px; 
+    /* podemos usar grid-template-colums: repeat(4, 200px)
+     para criar 4 colunas de 200px.*/
+
+    /*RESPONSIVIDADE!!!*/
+
+    /* podemos usar grid-template-colums: repeat(autofill, 200px)
+     para criar o maximo de colunas que cabem na tela com 200px*/
+     
+    grid-template-rows: 300px 100px;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+div{
+     width: 200px;
+    height: 200px; 
+}
+
+.red {
+    background-color: red;
+    grid-row: 2;
+   
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
