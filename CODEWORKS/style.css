@@ -10,11 +10,27 @@
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
+  
+    
 }
 
 nav{
     display: flex;
     flex-direction: row;
     width: 15em;
+    gap: 20px;
+}
 
+button{
+    width: 80px;
+    height: 28px;
+    border-radius: 20px;
+    border-width: 0px;
+ 
+}
+
+.new-user{
+    width: 400px;
+    display: flex;
+    align-items: center;
 }
